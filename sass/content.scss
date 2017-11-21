@@ -635,3 +635,31 @@ $geser: 260px;
 		}
 	}
 }
+
+@media (max-width: 425px) {
+	.box.history{
+		.nopol, .kurir{
+			font-size: 11px;
+		}
+		.detail{
+			font-size: 11px;
+		}
+	} 
+	
+	.ket-peta{
+		.no{
+			width: 40px;
+    		height: 40px;
+		    font-size: 22px;
+		}
+		.meta{
+			font-size: 11px;
+			span{
+				font-size: 12px;	
+			}
+			&.note{
+				max-width: 100px;
+			}
+		}
+	}
+}

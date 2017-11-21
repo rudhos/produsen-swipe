@@ -855,6 +855,22 @@ a, a:hover, a:active, a:focus {
     font-size: 16px; }
   .box .title-subtotal {
     font-size: 20px; } }
+@media (max-width: 425px) {
+  .box.history .nopol, .box.history .kurir, .box.history .kurir {
+    font-size: 11px; }
+  .box.history .detail {
+    font-size: 11px; }
+
+  .ket-peta .no {
+    width: 40px;
+    height: 40px;
+    font-size: 22px; }
+  .ket-peta .meta {
+    font-size: 11px; }
+    .ket-peta .meta span {
+      font-size: 12px; }
+    .ket-peta .meta.note {
+      max-width: 100px; } }
 /**
  * 3. FOOTER
  * -----------------------------------------------------------------------------
