@@ -560,7 +560,8 @@ a, a:hover, a:active, a:focus {
     .box.navhome img {
       width: 40px; }
     .box.navhome a {
-      color: #ff0000; }
+      color: #ff0000;
+      display: block; }
   .box.single {
     padding: 24px 10px; }
   .box.tabel {
@@ -580,7 +581,7 @@ a, a:hover, a:active, a:focus {
       background-color: #f9f9f9;
       border-radius: 0 0 10px 10px; }
   .box.item-tracking {
-    padding: 20px 10px; }
+    padding: 10px 10px; }
     .box.item-tracking a {
       display: block;
       text-decoration: none; }
@@ -590,7 +591,7 @@ a, a:hover, a:active, a:focus {
       .box.item-tracking .meta-date .ic {
         font-size: 20px; }
     .box.item-tracking .body {
-      font-size: 35px;
+      font-size: 30px;
       font-weight: 900;
       color: #bf1e2e; }
       .box.item-tracking .body span {
@@ -741,7 +742,7 @@ a, a:hover, a:active, a:focus {
     width: 50%; }
     .tabs-tracking > li a {
       color: #878787 !important;
-      padding: 24px 0;
+      padding: 18px 0;
       font-weight: 500; }
       .tabs-tracking > li a:hover {
         color: #bf1e2e !important; }

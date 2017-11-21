@@ -24,4 +24,24 @@ $(document).ready(function() {
 		$body.removeClass('sidebar-show');
 	});
 */
+
+//Enable swiping...
+      $(".wrap-content").swipe( {
+        //Generic swipe handler for all directions
+        
+        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+
+          var c =  $('.sidebar');
+          c.css("transform", "translate(0,0)");
+          c.addClass("ssm-nav-visible");
+
+          var a = $;
+          a(".ssm-toggle-nav").addClass("ssm-nav-visible"),
+          a("html").addClass("is-navOpen"), 
+          a(".ssm-overlay").fadeIn();
+        
+        },
+        //Default is 75px, set to 0 for demo so any distance triggers swipe
+         threshold:100
+      });
 });
