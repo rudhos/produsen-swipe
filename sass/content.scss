@@ -563,7 +563,7 @@ $geser: 260px;
 }
 
 
- .modalp{
+ .modalp, .finput{
 
 
  	.modal-content {
@@ -616,7 +616,9 @@ $geser: 260px;
 	color: $font__body-color;
     font-size: initial;
  }
-
+.finput{
+	padding: 0 20px;
+}
 
 /* Responsive */
 @media (max-width: 767px) {

@@ -26,7 +26,7 @@ $(document).ready(function() {
 */
 
 //Enable swiping...
-      $(".wrap-content").swipe( {
+      $(".wrap-content, .wraper").swipe( {
         //Generic swipe handler for all directions
         
         swipeRight:function(event, direction, distance, duration, fingerCount, fingerData) {

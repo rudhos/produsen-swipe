@@ -803,9 +803,9 @@ a, a:hover, a:active, a:focus {
 .form-group.is-focused .form-control .material-input:after {
   background-color: #bf1e2e; }
 
-.modalp .modal-content {
+.modalp .modal-content, .finput .modal-content {
   border-radius: 6px; }
-  .modalp .modal-content .modal-header {
+  .modalp .modal-content .modal-header, .finput .modal-content .modal-header {
     border-bottom: none;
     padding-top: 24px;
     padding-right: 24px;
@@ -816,12 +816,12 @@ a, a:hover, a:active, a:focus {
     color: #ffffff;
     padding-bottom: 20px;
     border-radius: 6px 6px 0 0; }
-.modalp .form-group {
+.modalp .form-group, .finput .form-group {
   margin: 0;
   padding-bottom: 0; }
-  .modalp .form-group.selek {
+  .modalp .form-group.selek, .finput .form-group.selek {
     position: relative; }
-    .modalp .form-group.selek:after {
+    .modalp .form-group.selek:after, .finput .form-group.selek:after {
       font-family: "i-webfont";
       content: '\e870';
       position: absolute;
@@ -830,18 +830,21 @@ a, a:hover, a:active, a:focus {
       color: #bf1e2e;
       transform: rotate(-90deg);
       font-size: 24px; }
-.modalp .form-control {
+.modalp .form-control, .finput .form-control {
   color: #bf1e2e;
   font-size: 20px; }
-.modalp .modal-footer {
+.modalp .modal-footer, .finput .modal-footer {
   text-align: center !important; }
-  .modalp .modal-footer .btn-primary {
+  .modalp .modal-footer .btn-primary, .finput .modal-footer .btn-primary {
     padding-left: 70px;
     padding-right: 70px; }
 
 .form-group.normal label.control-label {
   color: #878787;
   font-size: initial; }
+
+.finput {
+  padding: 0 20px; }
 
 /* Responsive */
 @media (max-width: 767px) {
